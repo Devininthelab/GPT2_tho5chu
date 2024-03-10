@@ -8,7 +8,7 @@ To run, use
 ```python
 from transformers import pipeline
 
-prompt = 'Thơ như tóc khá bảnh\n'
+prompt = 'Chiều chiều ra đứng ngõ\n'
 generator = pipeline('text-generation', model='winvswon78/gpt2_viet_poem_generation')
 results = generator(
     prompt,
